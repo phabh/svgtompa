@@ -1,0 +1,416 @@
+{
+  "IdWallet": 206,
+  "ExternalId": "df098308-bf3c-4f87-861d-d7e453f6e55a",
+  "Name": "Teste",
+  "Flows": [
+    {
+      "IdFlow": 8974,
+      "IdWallet": 206,
+      "Name": "00.0 - Lê Comando Inicial",
+      "ExternalId": "9519cfb9-3344-4af9-a561-f98ec23f067a",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"7653\",\"name\":\"00.1 - Inicio - Valida Tipo\",\"type\":\"GoTo\",\"father\":\"1\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"166db07a-27c4-412c-a02c-4e3e911e77f7\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": true,
+      "IsDelete": false,
+      "Created": "2017-04-26T12:18:09.92",
+      "Updated": "2017-05-09T17:45:36.65",
+      "IdLanguage": 1,
+      "Forms": [],
+      "Keywords": [
+        {
+          "IdKeyword": 7431,
+          "Word": "#Start#"
+        }
+      ]
+    },
+    {
+      "IdFlow": 8975,
+      "IdWallet": 206,
+      "Name": "00.1 - Inicio - Valida Tipo",
+      "ExternalId": "166db07a-27c4-412c-a02c-4e3e911e77f7",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"c314\",\"name\":\"Lê Comando In\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"5b18\",\"name\":\"PF\",\"type\":\"option\",\"father\":\"c314\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"1aaf\",\"name\":\"01.1 - Inicio PF\",\"type\":\"GoTo\",\"father\":\"5b18\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"36ffecba-4db7-49ca-a6c6-be285e3cee24\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"PF\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"803a\",\"name\":\"PJ\",\"type\":\"option\",\"father\":\"c314\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"e989\",\"name\":\"01.2 - Inicio PJ\",\"type\":\"GoTo\",\"father\":\"803a\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"30f1b3e1-5ada-4ed0-b2b2-ac0f328c8403\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"PJ\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"9fbe\",\"name\":\"NCOR\",\"type\":\"option\",\"father\":\"c314\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"df9b\",\"name\":\"01.3 - Inicio NCOR\",\"type\":\"GoTo\",\"father\":\"9fbe\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"4f9bb1ec-87db-4aba-a6b4-44a4395bbd1d\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NCOR\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"fbcc\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"c314\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"9fb7\",\"name\":\"ConsomeComando\",\"type\":\"Form\",\"father\":\"fbcc\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"7189\",\"name\":\"TODO\",\"type\":\"ShowMessage\",\"father\":\"9fb7\",\"data\":{},\"model\":{\"content\":\"TODO\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\",\"questions\":[{\"type\":\"question\",\"id\":\"4a28\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"customized\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"{session:userType}\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T12:25:54.533",
+      "Updated": "2017-05-09T15:17:35.143",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3412,
+          "ExternalId": "9b4a582e-4150-486b-bbd7-d29ef4815bcf",
+          "Title": "ConsomeComando",
+          "TagForm": "9fb7",
+          "StartMessage": "",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 8977,
+      "IdWallet": 206,
+      "Name": "01.2 - Inicio PJ",
+      "ExternalId": "30f1b3e1-5ada-4ed0-b2b2-ac0f328c8403",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"40f6\",\"name\":\"OfertaBoleto\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"30bb\",\"name\":\"NAO\",\"type\":\"option\",\"father\":\"40f6\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"ada5\",\"name\":\"02.2.2 - Decisao NAO - Não Recebe CodBar PJ\",\"type\":\"GoTo\",\"father\":\"30bb\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"da6f9321-3ce3-4382-8850-044cd66508d5\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NAO\",\"synonymous\":\"#regex#(?i)(.*\\\\b(não|nyet|nops|naun|nom|nope|nunca|jamais|nãum|no|n|non|naum|nao|nun.*|num)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"b2c9\",\"name\":\"SIM\",\"type\":\"option\",\"father\":\"40f6\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"13ba\",\"name\":\"02.2.1 - Decisao SIM - Recebe CodBar PJ\",\"type\":\"GoTo\",\"father\":\"b2c9\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"db74c0ce-a83c-4d50-898f-c96d8fb00c44\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"SIM\",\"synonymous\":\"#regex#(.*\\\\b([s][yiíoeóé\\\\?][mnk]|sm|([ad]im)|(sim[0-9]+)|envie|manda|sy|ok[a]?|pvf|please|h?uhum+|aham+|ta|yep|sib|si|s|yes|ok|kero|quer.*|k|claro|gost.*|pode|desej.*)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"995a\",\"name\":\"Nao entendi\",\"type\":\"option\",\"father\":\"40f6\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"3a8e\",\"name\":\"ConsomeComando\",\"type\":\"Form\",\"father\":\"995a\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"1f83\",\"name\":\"02.2.2 - Decisao NAO - Não Recebe CodBar PJ\",\"type\":\"GoTo\",\"father\":\"3a8e\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"da6f9321-3ce3-4382-8850-044cd66508d5\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"0e6f\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Nao entendi\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T12:29:05.493",
+      "Updated": "2017-05-02T19:12:37.797",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3414,
+          "ExternalId": "4f608a14-22c4-4d73-942d-8966dd37efaf",
+          "Title": "ConsomeComando",
+          "TagForm": "3a8e",
+          "StartMessage": "",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 8978,
+      "IdWallet": 206,
+      "Name": "02.2.1 - Decisao SIM - Recebe CodBar PJ",
+      "ExternalId": "db74c0ce-a83c-4d50-898f-c96d8fb00c44",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"6df1\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"1\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"SIM\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#\\n#action##broad#O nr do boleto de R$ $value$ com venc $duedate$ eh $barcode$. Da p/ pagar no app ou caixa eletronico\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"9657\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"6df1\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T12:39:14.587",
+      "Updated": "2017-05-15T14:03:18.233",
+      "IdLanguage": 1,
+      "Forms": [],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 8979,
+      "IdWallet": 206,
+      "Name": "02.2.2 - Decisao NAO - Não Recebe CodBar PJ",
+      "ExternalId": "da6f9321-3ce3-4382-8850-044cd66508d5",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"1a76\",\"name\":\"Motivo\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"59f0\",\"name\":\"- Pgto OK\",\"type\":\"option\",\"father\":\"1a76\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"79f9\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"59f0\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO_FizPag\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Certo {session:userName}. Obrigado pela sua atencao! :)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"ad48\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"79f9\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"pgto OK\",\"synonymous\":\"#regex#(?i)^(\\\\s*)1$|j[a|á](\\\\s*)paguei|p[a]?g(amen)?to(\\\\s*)ok|j[a|á](\\\\s*)(realizei|fiz)(\\\\s*)o(\\\\s*)p[a]?g(amen)?to\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"d98c\",\"name\":\"- Tenho o boleto\",\"type\":\"option\",\"father\":\"1a76\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"746e\",\"name\":\"Ja tenho\",\"type\":\"ShowMessage\",\"father\":\"d98c\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO_TenhoBoleto\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"1ccc\",\"name\":\"MultipleBarC?\",\"type\":\"Question\",\"father\":\"746e\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"91cb\",\"name\":\"false\",\"type\":\"option\",\"father\":\"1ccc\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"3b14\",\"name\":\"BarCode MSG\",\"type\":\"ShowMessage\",\"father\":\"91cb\",\"data\":{},\"model\":{\"content\":\"#split#Tudo bem {session:userName}. Nao esqueca, que o boleto da negociacao com o Itau Empresas vence em {session:userDate}. :)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"3623\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"3b14\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"false\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"a525\",\"name\":\"true\",\"type\":\"option\",\"father\":\"1ccc\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"316b\",\"name\":\"BarCodes MSG\",\"type\":\"ShowMessage\",\"father\":\"a525\",\"data\":{},\"model\":{\"content\":\"#split#Tudo bem {session:userName}. Nao esqueca, que os boletos das negociacoes vencem em {session:userDate}. :)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"adb9\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"316b\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"true\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"customized\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"{session:userMultipleBarCodes}\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Tenho o boleto\",\"synonymous\":\"#regex#(?i)^(\\\\s*)2$|tenho(\\\\s*)boleto\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"1614\",\"name\":\"- Quer renegociar\",\"type\":\"option\",\"father\":\"1a76\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"1363\",\"name\":\"Renegociar\",\"type\":\"ShowMessage\",\"father\":\"1614\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO_Renegociar\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Veja condicoes no site itau/empresas/renegocie ou nos ligue no 4004-1188 (capitais e regioes) ou 0800-709-1188 (outras localidades)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"20f5\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"1363\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Quer renegociar\",\"synonymous\":\"#regex#(?i)^(\\\\s*)3$|r[ei]n[ei][gqhcf].*\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"5230\",\"name\":\"- Nao reconheco negociacao\",\"type\":\"option\",\"father\":\"1a76\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"54f7\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"5230\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO_NaoReconhecoAcordo\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Se preferir falar com nossa central, ligue para 4004-1188 (capitais e regioes) ou 0800-709-1188 (outras localidades)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"17f3\",\"name\":\"Blacklist\",\"type\":\"ShowMessage\",\"father\":\"54f7\",\"data\":{},\"model\":{\"content\":\"#split##noaction##blacklist#\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"cd14\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"17f3\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Nao reconheco negociacao\",\"synonymous\":\"#regex#(?i)^(\\\\s*)4$|n[ã|a](o|um)(\\\\s*)reconhe[c|ç]o(.*)(nego(c|ç|s+)ia(c|ç|s+)[a|ã]o|acordo)\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"4eee\",\"name\":\"- Nao entendi, quero falar com alguem\",\"type\":\"option\",\"father\":\"1a76\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"b974\",\"name\":\"NaoEntendi\",\"type\":\"ShowMessage\",\"father\":\"4eee\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO_NaoEntendi\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"9f55\",\"name\":\"#split#{s...\",\"type\":\"ShowMessage\",\"father\":\"b974\",\"data\":{},\"model\":{\"content\":\"#split#Se preferir falar com nossa central, ligue para 4004-1188 (capitais e regioes) ou 0800-709-1188 (outras localidades)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"93b2\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"9f55\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Nao entendi, quero falar com alguem\",\"synonymous\":\"#regex#(?i)^(\\\\s*)5$|n[ã|a](o|um)(\\\\s*)entendi|(quero|preciso|gostaria de)(\\\\s*)falar(\\\\s*)com(.*)(algu[é|e]m|atendente)\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"d9d6\",\"name\":\"- Outros\",\"type\":\"option\",\"father\":\"1a76\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"8d50\",\"name\":\"Motivo\",\"type\":\"Form\",\"father\":\"d9d6\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"493b\",\"name\":\"Obrigado\",\"type\":\"ShowMessage\",\"father\":\"8d50\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO_OutosDetalhado\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Obrigado pela sua resposta, {session:userName}. O Itau Empresas agradece.\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"7001\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"493b\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"0afd\",\"title\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO_Outros\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#{session:userName}, queremos ajudar. Poderia, por favor, nos informar o motivo de nao efetuar o pagamento?\",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Outros\",\"synonymous\":\"(?i)^(\\\\s*)6$|^(\\\\s*)outro[s]?$\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"d69b\",\"name\":\"Negacao\",\"type\":\"option\",\"father\":\"1a76\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"88b1\",\"name\":\"ConsomeComando\",\"type\":\"Form\",\"father\":\"d69b\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"445d\",\"name\":\"8d50 - Motivo\",\"type\":\"GoTo\",\"father\":\"88b1\",\"data\":{},\"model\":{\"type\":\"page\",\"gotoid\":\"8d50\",\"isnotrun\":\"false\",\"isnotactive\":\"false\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"4286\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Negacao\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"title\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"NAO\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Por favor, nos diga o motivo:\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T13:04:11.537",
+      "Updated": "2017-05-09T19:05:30.743",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3417,
+          "ExternalId": "87f8621e-fcd3-4094-8788-bf328f5e01ef",
+          "Title": "Motivo",
+          "TagForm": "8d50",
+          "StartMessage": "",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3418,
+          "ExternalId": "a32d39d4-40d8-4276-99ad-365cbaaed7d9",
+          "Title": "ConsomeComando",
+          "TagForm": "88b1",
+          "StartMessage": "",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 8980,
+      "IdWallet": 206,
+      "Name": "04 - NoSession",
+      "ExternalId": "532c9966-9c42-4398-a485-e6de332edb1b",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"c227\",\"name\":\"#split##...\",\"type\":\"ShowMessage\",\"father\":\"1\",\"data\":{},\"model\":{\"content\":\"#split##noaction##closesession#\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T14:51:59.353",
+      "Updated": "2017-05-03T16:25:29.953",
+      "IdLanguage": 1,
+      "Forms": [],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 8981,
+      "IdWallet": 206,
+      "Name": "05 - Comando Ajuda",
+      "ExternalId": "3d802802-709a-4823-b268-ff5b0b486e6f",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"0dbb\",\"name\":\" MENU AJUDA\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"7110\",\"name\":\"PF\",\"type\":\"option\",\"father\":\"0dbb\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"2f2b\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"7110\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"PF\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"0e0b\",\"name\":\"PJ\",\"type\":\"option\",\"father\":\"0dbb\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"76a4\",\"name\":\"05.2 - PJ Comando Ajuda\",\"type\":\"GoTo\",\"father\":\"0e0b\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"a7101527-54e8-410c-97d4-a8b36bc2b39e\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"PJ\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"a571\",\"name\":\"NCOR\",\"type\":\"option\",\"father\":\"0dbb\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"6205\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"a571\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NCOR\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"customized\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"{session:userType}\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T14:55:06.247",
+      "Updated": "2017-05-04T19:12:39.347",
+      "IdLanguage": 1,
+      "Forms": [],
+      "Keywords": [
+        {
+          "IdKeyword": 7430,
+          "Word": "#Ajuda#"
+        }
+      ]
+    },
+    {
+      "IdFlow": 8982,
+      "IdWallet": 206,
+      "Name": "05.2 - PJ Comando Ajuda",
+      "ExternalId": "a7101527-54e8-410c-97d4-a8b36bc2b39e",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"b213\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"1\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"AJUDA\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"6c8b\",\"name\":\"MENU AJUDA\",\"type\":\"Question\",\"father\":\"b213\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"0225\",\"name\":\"- Como funciona\",\"type\":\"option\",\"father\":\"6c8b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"3a3f\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"0225\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"AJUDA_ComoFunciona\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Enviaremos avisos de vencimento da sua parcela de renegociacao, confirmacao de pagamentos, entre outros. Conte com a gente :-)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"615b\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"3a3f\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Como funciona\",\"synonymous\":\"#regex#(?i)^(\\\\s*)1$|como(\\\\s*)funciona\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"34a5\",\"name\":\"- Ja fiz o pgto\",\"type\":\"option\",\"father\":\"6c8b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"72e8\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"34a5\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"AJUDA_FizPag\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\\"\\n}\\n#split#Certo {session:userName}. Obrigado pela atencao! :-)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"fc1a\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"72e8\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"questions\":\"\",\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"\",\"sendresponsemessage\":\"\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Ja fiz o pgto\",\"synonymous\":\"#regex#(?i)^(\\\\s*)2$|j[a|á](\\\\s*)paguei|p[a]?g(amen)?to(\\\\s*)ok|j[a|á](\\\\s*)(realizei|fiz)(\\\\s*)o(\\\\s*)p[a]?g(amen)?to\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"b60e\",\"name\":\"- Quero por email\",\"type\":\"option\",\"father\":\"6c8b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"92dc\",\"name\":\"05.2.1 - Boleto por Email PJ\",\"type\":\"GoTo\",\"father\":\"b60e\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"e8545232-79e9-4890-b8a7-1c06dbdc7afa\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Quero por email\",\"synonymous\":\"#regex#(?i)^(\\\\s*)3$|(quero|envie|envia|manda)(.*)email\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"81a5\",\"name\":\"- Quero pelo correio\",\"type\":\"option\",\"father\":\"6c8b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"fd7d\",\"name\":\"05.2.2 - Boleto por correio PJ\",\"type\":\"GoTo\",\"father\":\"81a5\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"0167fb2c-e75f-4da7-a8de-941e0b14c00a\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Quero pelo correio\",\"synonymous\":\"#regex#(?i)^(\\\\s*)4$|(quero|envie|envia|manda)(.*)correio\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"6bcd\",\"name\":\"- Duvidas sobre boleto\",\"type\":\"option\",\"father\":\"6c8b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"c748\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"6bcd\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"AJUDA_Duvidas\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Deseja falar com nossa central, os telefones sao 4004-1188 (capitais e regioes) ou 0800-709-1188 (outras localidades)\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"164a\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"c748\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Duvidas sobre boleto\",\"synonymous\":\"#regex#(?i)^(\\\\s*)5$|d[ú|u]vida(.*)boleto\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"0310\",\"name\":\"- Nao quero mais receber msgs\",\"type\":\"option\",\"father\":\"6c8b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"41b7\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"0310\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"AJUDA_NaoReceberMsg\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split##noaction##blacklist#\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"4e46\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"41b7\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"Nao quero mais receber msgs\",\"synonymous\":\"#regex#(?i)^(\\\\s*)6$|(n[ã|a](o|um)(\\\\s*)(quero)|chega de)(\\\\s*)(mais)?(\\\\s*)(receber)?(\\\\s*)m[e]?[n]?s[a]?g[e]?[m|n]?\",\"url\":\"\",\"hide\":\"false\",\"empty\":\"false\"},{\"id\":\"2574\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"6c8b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"80f8\",\"name\":\"ConsomeComando\",\"type\":\"Form\",\"father\":\"2574\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"722f\",\"name\":\"6c8b - MENU AJUDA\",\"type\":\"GoTo\",\"father\":\"80f8\",\"data\":{},\"model\":{\"type\":\"page\",\"gotoid\":\"6c8b\",\"isnotrun\":\"false\",\"isnotactive\":\"false\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"3c8e\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\"#split#Como podemos ajudar?\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T14:56:10.983",
+      "Updated": "2017-05-09T19:04:53.883",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3419,
+          "ExternalId": "d33576cc-db06-4f08-bbaf-62e5a862015a",
+          "Title": "ConsomeComando",
+          "TagForm": "80f8",
+          "StartMessage": "",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 8983,
+      "IdWallet": 206,
+      "Name": "05.2.1 - Boleto por Email PJ",
+      "ExternalId": "e8545232-79e9-4890-b8a7-1c06dbdc7afa",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"ac9a\",\"name\":\" UserType\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"53f4\",\"name\":\"PF\",\"type\":\"option\",\"father\":\"ac9a\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"b792\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"53f4\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"PF\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"a8de\",\"name\":\"PJ\",\"type\":\"option\",\"father\":\"ac9a\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"e4c0\",\"name\":\"SendMessage\",\"type\":\"ShowMessage\",\"father\":\"a8de\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"AJUDA_Email\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Pode informar seu endereço para tambem enviarmos por email no proximo mes?\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"fa4e\",\"name\":\"Resposta\",\"type\":\"Form\",\"father\":\"e4c0\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"dbb9\",\"name\":\"QuerBoleto\",\"type\":\"Question\",\"father\":\"fa4e\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"a8e0\",\"name\":\"SIM\",\"type\":\"option\",\"father\":\"dbb9\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"2475\",\"name\":\"02.2.1 - Decisao SIM - Recebe CodBar PJ\",\"type\":\"GoTo\",\"father\":\"a8e0\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"db74c0ce-a83c-4d50-898f-c96d8fb00c44\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"SIM\",\"synonymous\":\"#regex#(.*\\\\b([s][yiíoeóé\\\\?][mnk]|sm|([ad]im)|(sim[0-9]+)|envie|manda|sy|ok[a]?|pvf|please|h?uhum+|aham+|ta|yep|sib|si|s|yes|ok|kero|quer.*|k|claro|gost.*|pode|desej.*)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"cd6c\",\"name\":\"NAO\",\"type\":\"option\",\"father\":\"dbb9\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"dd00\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"cd6c\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NAO\",\"synonymous\":\"#regex#(?i)(.*\\\\b(não|nyet|nops|naun|nom|nope|nunca|jamais|nãum|no|n|non|naum|nao|nun.*|num)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"1280\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"dbb9\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"6213\",\"name\":\"Consome\",\"type\":\"Form\",\"father\":\"1280\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"c264\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"6213\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"18d6\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\"#split#Obrigado! Quer receber o nr para pagto deste mes?\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}],\"questions\":[{\"type\":\"question\",\"id\":\"fd65\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"true\",\"customvariable\":\"answer\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"PJ\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"0b54\",\"name\":\"NCOR\",\"type\":\"option\",\"father\":\"ac9a\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"feaf\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"0b54\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NCOR\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"customized\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"{session:userType}\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T16:25:36.843",
+      "Updated": "2017-05-09T17:54:33.147",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3420,
+          "ExternalId": "3abd1d73-065f-48e1-b61f-7e3d1e2ca0af",
+          "Title": "Resposta",
+          "TagForm": "b38e",
+          "StartMessage": "",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3421,
+          "ExternalId": "8245087f-3e84-406d-8af5-423c0627a247",
+          "Title": "ConsomeComando",
+          "TagForm": "9399",
+          "StartMessage": "",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3454,
+          "ExternalId": "68df3e94-196c-419a-bee9-23414cc1a71d",
+          "Title": "Resposta",
+          "TagForm": "fa4e",
+          "StartMessage": "",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3455,
+          "ExternalId": "558565d3-d770-497b-98de-06c7784c8e82",
+          "Title": "Consome",
+          "TagForm": "6213",
+          "StartMessage": "",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": [
+        {
+          "IdKeyword": 7428,
+          "Word": "#OrderByEmail#"
+        }
+      ]
+    },
+    {
+      "IdFlow": 8984,
+      "IdWallet": 206,
+      "Name": "05.2.2 - Boleto por correio PJ",
+      "ExternalId": "0167fb2c-e75f-4da7-a8de-941e0b14c00a",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"fd88\",\"name\":\"UserType\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"a900\",\"name\":\"PJ\",\"type\":\"option\",\"father\":\"fd88\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"ddde\",\"name\":\"SendMessage\",\"type\":\"ShowMessage\",\"father\":\"a900\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"AJUDA_Correio\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Este eh um serviço adicional, se o boleto ainda nao chegou pelo correio confirme o endereço em nossos canais de atendimento. Deseja o nr p/ pagto?\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"a86f\",\"name\":\" QuerBoleto\",\"type\":\"Question\",\"father\":\"ddde\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"e79c\",\"name\":\"SIM\",\"type\":\"option\",\"father\":\"a86f\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"3c1a\",\"name\":\"02.2.1 - Decisao SIM - Recebe CodBar PJ\",\"type\":\"GoTo\",\"father\":\"e79c\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"db74c0ce-a83c-4d50-898f-c96d8fb00c44\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"SIM\",\"synonymous\":\"#regex#(.*\\\\b([s][yiíoeóé\\\\?][mnk]|sm|([ad]im)|(sim[0-9]+)|envie|manda|sy|ok[a]?|pvf|please|h?uhum+|aham+|ta|yep|sib|si|s|yes|ok|kero|quer.*|k|claro|gost.*|pode|desej.*)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"ac68\",\"name\":\"NAO\",\"type\":\"option\",\"father\":\"a86f\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"1fc2\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"ac68\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NAO\",\"synonymous\":\"#regex#(?i)(.*\\\\b(não|nyet|nops|naun|nom|nope|nunca|jamais|nãum|no|n|non|naum|nao|nun.*|num)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"ff2b\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"a86f\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"dcbd\",\"name\":\"Consome\",\"type\":\"Form\",\"father\":\"ff2b\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"b3fa\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"dcbd\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"446c\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\"\",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"PJ\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"1665\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"fd88\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"7349\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"1665\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"customized\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"{session:userType}\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-04-26T16:41:09.33",
+      "Updated": "2017-05-09T18:01:22.653",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3422,
+          "ExternalId": "5a8d3231-d527-4695-b68d-504686b62856",
+          "Title": "Resposta",
+          "TagForm": "0535",
+          "StartMessage": "",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3423,
+          "ExternalId": "55a557a0-afaa-4972-a7c4-92c4b24f5bb6",
+          "Title": "ConsomeComando",
+          "TagForm": "eafa",
+          "StartMessage": "",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3442,
+          "ExternalId": "6ae43d69-c1fc-408c-a71a-5e5215bcbdc0",
+          "Title": "Consome",
+          "TagForm": "d26f",
+          "StartMessage": " ",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3456,
+          "ExternalId": "5a5ef5aa-50d8-4e5f-bfe1-bc211d31c8a1",
+          "Title": "Consome",
+          "TagForm": "dcbd",
+          "StartMessage": "",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": [
+        {
+          "IdKeyword": 7429,
+          "Word": "#OrderByPost#"
+        }
+      ]
+    },
+    {
+      "IdFlow": 9042,
+      "IdWallet": 206,
+      "Name": "01.1 - Inicio PF",
+      "ExternalId": "36ffecba-4db7-49ca-a6c6-be285e3cee24",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"d54b\",\"name\":\"UserFlow\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"18a6\",\"name\":\"D-4\",\"type\":\"option\",\"father\":\"d54b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"d311\",\"name\":\" OfertaBoleto\",\"type\":\"Question\",\"father\":\"18a6\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"d009\",\"name\":\"SIM\",\"type\":\"option\",\"father\":\"d311\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"73ad\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"d009\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"Reconhece_SIM\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Caso necessario, voce pode recuperar seu boleto pelo site do Itau, deseja receber o codigo de acesso? Responda SIM ou NAO\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"2c85\",\"name\":\"0616 - OfertaBoleto\",\"type\":\"GoTo\",\"father\":\"73ad\",\"data\":{},\"model\":{\"type\":\"page\",\"gotoid\":\"0616\",\"isnotrun\":\"false\",\"isnotactive\":\"false\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"SIM\",\"synonymous\":\"#regex#(.*\\\\b([s][yiíoeóé\\\\?][mnk]|sm|([ad]im)|(sim[0-9]+)|envie|manda|sy|ok[a]?|pvf|please|h?uhum+|aham+|ta|yep|sib|si|s|yes|ok|kero|quer.*|k|claro|gost.*|pode|desej.*)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"350d\",\"name\":\"NAO\",\"type\":\"option\",\"father\":\"d311\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"1b3e\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"350d\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"Reconhece_NAO\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"f7bc\",\"name\":\"02.1.2 - Decisao NAO - Não Recebe CodBar PF\",\"type\":\"GoTo\",\"father\":\"1b3e\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"d9d898b8-6dff-4107-8b29-83b65ee0a41e\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NAO\",\"synonymous\":\"#regex#(?i)(.*\\\\b(não|nyet|nops|naun|nom|nope|nunca|jamais|nãum|no|n|non|naum|nao|nun.*|num)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"6983\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"d311\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"03f9\",\"name\":\"aaf7 - Consome\",\"type\":\"GoTo\",\"father\":\"6983\",\"data\":{},\"model\":{\"type\":\"page\",\"gotoid\":\"aaf7\",\"isnotrun\":\"false\",\"isnotactive\":\"false\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}],\"default\":\"false\",\"value\":\"D-4\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"bb12\",\"name\":\"D-1\",\"type\":\"option\",\"father\":\"d54b\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"0616\",\"name\":\"OfertaBoleto\",\"type\":\"Question\",\"father\":\"bb12\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"df56\",\"name\":\"SIM\",\"type\":\"option\",\"father\":\"0616\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"c1fa\",\"name\":\"02.1.1 - Decisao SIM - Recebe CodBar PF\",\"type\":\"GoTo\",\"father\":\"df56\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"813e48b3-509e-45c4-8188-1818b73df7fd\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"SIM\",\"synonymous\":\"#regex#(.*\\\\b([s][yiíoeóé\\\\?][mnk]|sm|([ad]im)|(sim[0-9]+)|envie|manda|sy|ok[a]?|pvf|please|h?uhum+|aham+|ta|yep|sib|si|s|yes|ok|kero|quer.*|k|claro|gost.*|pode|desej.*)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"6136\",\"name\":\"NAO\",\"type\":\"option\",\"father\":\"0616\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"49dc\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"6136\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"Reconhece_SIM_NaoQuerCodAcesso\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"1f07\",\"name\":\"02.1.2 - Decisao NAO - Não Recebe CodBar PF\",\"type\":\"GoTo\",\"father\":\"49dc\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"d9d898b8-6dff-4107-8b29-83b65ee0a41e\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"true\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NAO\",\"synonymous\":\"#regex#(?i)(.*\\\\b(não|nyet|nops|naun|nom|nope|nunca|jamais|nãum|no|n|non|naum|nao|nun.*|num)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"78de\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"0616\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"aaf7\",\"name\":\"Consome\",\"type\":\"Form\",\"father\":\"78de\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"a0c5\",\"name\":\"02.1.2 - Decisao NAO - Não Recebe CodBar PF\",\"type\":\"GoTo\",\"father\":\"aaf7\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"d9d898b8-6dff-4107-8b29-83b65ee0a41e\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"3468\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\" \",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}],\"default\":\"false\",\"value\":\"D-1\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"customized\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"{session:userFlow}\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-05-02T21:07:18.937",
+      "Updated": "2017-06-06T14:36:39.78",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3430,
+          "ExternalId": "22f52a2d-444e-49d5-a10f-e2db856c61ad",
+          "Title": "Consome",
+          "TagForm": "4c65",
+          "StartMessage": " ",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3434,
+          "ExternalId": "69511fa9-b781-4bd1-a5eb-9fc366c7f009",
+          "Title": "Consome",
+          "TagForm": "aaf7",
+          "StartMessage": " ",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 9043,
+      "IdWallet": 206,
+      "Name": "01.3 - Inicio NCOR",
+      "ExternalId": "4f9bb1ec-87db-4aba-a6b4-44a4395bbd1d",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"9eab\",\"name\":\"UserFlow\",\"type\":\"Question\",\"father\":\"1\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"5e2c\",\"name\":\"D-4\",\"type\":\"option\",\"father\":\"9eab\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"17b2\",\"name\":\"OfertaBoleto\",\"type\":\"Question\",\"father\":\"5e2c\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"5618\",\"name\":\"SIM\",\"type\":\"option\",\"father\":\"17b2\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"8f5e\",\"name\":\"02.3.1 - Decisao SIM - Recebe CodBar NCOR\",\"type\":\"GoTo\",\"father\":\"5618\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"30696ebc-996b-41c8-b25c-b661d2bfbf70\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"SIM\",\"synonymous\":\"#regex#(.*\\\\b([s][yiíoeóé\\\\?][mnk]|sm|([ad]im)|(sim[0-9]+)|envie|manda|sy|ok[a]?|pvf|please|h?uhum+|aham+|ta|yep|sib|si|s|yes|ok|kero|quer.*|k|claro|gost.*|pode|desej.*)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"3913\",\"name\":\"NAO\",\"type\":\"option\",\"father\":\"17b2\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"128c\",\"name\":\"02.3.2 - Decisao NAO - Não Recebe CodBar NCOR\",\"type\":\"GoTo\",\"father\":\"3913\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"63634677-aa58-423c-9c8e-2b882646b736\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"NAO\",\"synonymous\":\"#regex#(?i)(.*\\\\b(não|nyet|nops|naun|nom|nope|nunca|jamais|nãum|no|n|non|naum|nao|nun.*|num)\\\\b.*)\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"f94e\",\"name\":\"Default\",\"type\":\"option\",\"father\":\"17b2\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"7382\",\"name\":\"Consome\",\"type\":\"Form\",\"father\":\"f94e\",\"data\":{},\"model\":{},\"children\":[{\"id\":\"af0a\",\"name\":\"02.3.2 - Decisao NAO - Não Recebe CodBar NCOR\",\"type\":\"GoTo\",\"father\":\"7382\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"63634677-aa58-423c-9c8e-2b882646b736\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"questions\":[{\"type\":\"question\",\"id\":\"35b1\",\"title\":\" \",\"questiontype\":\"opentext\",\"children\":[],\"ischeckboxformatter\":\"false\",\"formatterurl\":\"\",\"ischeckboxerrormessage\":\"false\",\"customerrormessage\":\"\",\"isrequired\":\"false\",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"custominput\":\"\",\"iscustomvariable\":\"false\",\"customvariable\":\"\"}],\"startmessage\":\" \",\"endmessage\":\"\",\"posturl\":\"\",\"sucesscontinue\":\"false\",\"sendresponsemessage\":\"false\",\"urlvariable\":\"\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"true\",\"value\":\"Default\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"user\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}],\"default\":\"false\",\"value\":\"D-4\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"},{\"id\":\"3c2d\",\"name\":\"D-1\",\"type\":\"option\",\"father\":\"9eab\",\"data\":{\"$type\":\"none\"},\"model\":{},\"children\":[{\"id\":\"d86b\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"3c2d\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"default\":\"false\",\"value\":\"D-1\",\"synonymous\":\"\",\"url\":\"\",\"hide\":\"true\",\"empty\":\"false\"}],\"title\":\" \",\"inputsource\":\"customized\",\"sessionvariable\":\"httpresponse\",\"urlvariable\":\"\",\"custominput\":\"{session:userFlow}\",\"formatterurl\":\"\",\"customerrormessage\":\"\",\"iscustomvariable\":\"\",\"customvariable\":\"\",\"emptyoptionid\":\"null\",\"wibcustomgo\":\"\",\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\",\"isrequired\":\"true\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-05-02T21:09:58.583",
+      "Updated": "2017-05-17T17:58:18.98",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3431,
+          "ExternalId": "ba66529d-0602-45b8-a74e-ce36a4507efa",
+          "Title": "Consome",
+          "TagForm": "3afc",
+          "StartMessage": " ",
+          "EndMessage": ""
+        },
+        {
+          "IdForm": 3433,
+          "ExternalId": "6158f1ea-e997-4afb-9e53-7b75e3c3dcba",
+          "Title": "Consome",
+          "TagForm": "7382",
+          "StartMessage": " ",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 9044,
+      "IdWallet": 206,
+      "Name": "02.1.1 - Decisao SIM - Recebe CodBar PF",
+      "ExternalId": "813e48b3-509e-45c4-8188-1818b73df7fd",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"778a\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"1\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"Reconhece_SIM_QuerCodAcesso\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#\\n#action##broad#Acesse o site do Itau em servicos/boletos/pague-suas-contas e insira o codigo $ournumber$. Dúvidas ligue 40041144 (capital) ou 08007261144 (outras regioes).\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"9760\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"778a\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-05-02T21:14:47.167",
+      "Updated": "2017-06-08T16:56:28.65",
+      "IdLanguage": 1,
+      "Forms": [
+        {
+          "IdForm": 3432,
+          "ExternalId": "e77cfcd7-a875-4ff0-90ed-397af6a51cdc",
+          "Title": "Consome",
+          "TagForm": "8f35",
+          "StartMessage": " ",
+          "EndMessage": ""
+        }
+      ],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 9045,
+      "IdWallet": 206,
+      "Name": "02.1.2 - Decisao NAO - Não Recebe CodBar PF",
+      "ExternalId": "d9d898b8-6dff-4107-8b29-83b65ee0a41e",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"8ca8\",\"name\":\"Nao\",\"type\":\"ShowMessage\",\"father\":\"1\",\"data\":{},\"model\":{\"content\":\"#split#Tudo bem! Por favor desconsidere o contato. Agradecemos a atencao.\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"d903\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"8ca8\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-05-02T21:17:46.597",
+      "Updated": "2017-06-05T19:22:58.567",
+      "IdLanguage": 1,
+      "Forms": [],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 9047,
+      "IdWallet": 206,
+      "Name": "02.3.1 - Decisao SIM - Recebe CodBar NCOR",
+      "ExternalId": "30696ebc-996b-41c8-b25c-b661d2bfbf70",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"fe64\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"1\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"Reconhece_SIM\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#\\n#action##broad#{session:userName}, seu pagamento do cartao {session:userBusiness} vence nos proximos dias. Faca o pagamento e evite o cancelamento do seu cartao. \",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"3ff1\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"fe64\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-05-02T21:44:37.687",
+      "Updated": "2017-05-09T20:55:11.453",
+      "IdLanguage": 1,
+      "Forms": [],
+      "Keywords": []
+    },
+    {
+      "IdFlow": 9048,
+      "IdWallet": 206,
+      "Name": "02.3.2 - Decisao NAO - Não Recebe CodBar NCOR",
+      "ExternalId": "63634677-aa58-423c-9c8e-2b882646b736",
+      "Tree": "{\"id\":\"1\",\"name\":\"Início\",\"type\":\"START\",\"father\":null,\"data\":{},\"model\":{},\"children\":[{\"id\":\"c602\",\"name\":\"#action##...\",\"type\":\"ShowMessage\",\"father\":\"1\",\"data\":{},\"model\":{\"content\":\"#action##notificate#\\n{ \\n\\\"event\\\": \\\"Reconhece_NAO\\\",\\n\\\"participantid\\\": \\\"{session:userKey}\\\",\\n\\\"msisdn\\\":\\\"{session:userMSISDN}\\\"\\n}\\n#split#Tudo bem! Favor desconsiderar o contato. Obrigado.\",\"getexternal\":\"false\",\"externalurl\":\"\",\"extensions\":{\"sms\":{\"suppressoption\":\"true\"},\"wib\":{\"content\":\"\"}}},\"children\":[{\"id\":\"31a5\",\"name\":\"04 - NoSession\",\"type\":\"GoTo\",\"father\":\"c602\",\"data\":{},\"model\":{\"type\":\"flow\",\"gotoid\":\"532c9966-9c42-4398-a485-e6de332edb1b\",\"isnotrun\":\"false\",\"isnotactive\":\"true\"},\"children\":[],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}],\"isanalyticsregister\":\"false\",\"analyticsdescription\":\"\"}]}",
+      "IsActive": false,
+      "IsDelete": false,
+      "Created": "2017-05-02T21:46:33.707",
+      "Updated": "2017-05-09T12:47:33.147",
+      "IdLanguage": 1,
+      "Forms": [],
+      "Keywords": []
+    }
+  ],
+  "WalletSettings": [
+    {
+      "IdWalletSetting": 466,
+      "Key": "ToNormalized",
+      "Value": "false"
+    },
+    {
+      "IdWalletSetting": 467,
+      "Key": "MaxCharCount",
+      "Value": "10000"
+    }
+  ]
+}

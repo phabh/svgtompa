@@ -51,6 +51,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Resource\206.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\Frame.svg" />
+    <Content Include="Resource\Inicio.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
