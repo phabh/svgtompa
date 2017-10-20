@@ -1,0 +1,27 @@
+﻿{
+  "id": "1",
+  "name": "Início",
+  "type": "START",
+  "father": null,
+  "data": {},
+  "model": {},
+  "children": [
+    {
+      "id": "7653",
+      "name": "00.1 - Inicio - Valida Tipo",
+      "type": "GoTo",
+      "father": "1",
+      "data": {},
+      "model": {
+        "type": "flow",
+        "gotoid": "166db07a-27c4-412c-a02c-4e3e911e77f7",
+        "isnotrun": "false",
+        "isnotactive": "true"
+      },
+      "children": [],
+      "isanalyticsregister": "false",
+      "analyticsdescription": ""
+
+    }
+  ]
+}
