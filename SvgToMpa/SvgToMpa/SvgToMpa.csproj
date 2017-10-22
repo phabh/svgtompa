@@ -47,9 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Block.cs" />
+    <Compile Include="BlockGoTo.cs" />
+    <Compile Include="BlockImage.cs" />
+    <Compile Include="BlockMenu.cs" />
+    <Compile Include="BlockMenuOption.cs" />
     <Compile Include="BlockText.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MenuType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

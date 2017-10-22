@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SvgToMpa
 {
-    public class Block
+    public class BlockImage : Block
     {
-        public int Order { get; set; }
+        public string Url { get; set; }
     }
 }
